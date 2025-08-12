@@ -4,7 +4,7 @@ import profile from '../../assets/profile.png';
 const About = () => {
   return (
     <section id="about">
-      <div className="py-12 px-[12vw] md:px-[7vw] lg:px-[16vw] font-sans bg-skills-gradient clip-path-custom-2">
+      <div className="py-24 mt-10 px-[12vw] md:px-[7vw] lg:px-[16vw] font-sans bg-skills-gradient clip-path-custom-2">
         <h2 className="text-4xl font-bold text-center text-white">ABOUT ME</h2>
            <div className="flex flex-col md:flex-row justify-center items-center gap-8 md:gap-x-16 lg:gap-x-32 m-4 md:m-8">
              <div className="flex-shrink-0 flex justify-center items-center mb-8 md:mb-0">

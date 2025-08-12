@@ -42,7 +42,7 @@ const Navbar = () => {
         >
             <div className="text-white py-5 flex justify-between items-center">
                 <div className="text-lg font-semibold cursor-pointer">
-                    <span className="text-white">Nirob Debnath</span>
+                    <a hred="/" className="text-white">Nirob Debnath</a>
                 </div>
 
                 {/* Desktop Menu */}

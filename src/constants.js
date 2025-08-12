@@ -138,9 +138,9 @@ export const projects = [
     description:
       "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
     image: productRecommendationLogo,
-    tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
-    github: "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
-    webapp: "https://githubprofiledetective.netlify.app/",
+    tags: ["React JS", "Node JS", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
+    github: "https://github.com/Nirob-Debnath/product-recommendation-system",
+    webapp: "https://productrecommendationsite-nirob.netlify.app/",
   },
   {
     id: 1,
@@ -149,8 +149,8 @@ export const projects = [
       "A MERN Stack based platform designed specially for students to find roommates. The platform offers comprehensive profile stats and detailed results, helping students track and improve their preparation journey effectively.",
     image: roommateFinderLogo,
     tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
-    github: "https://github.com/codingmastr/CSPrep",
-    webapp: "https://csprep.netlify.app/",
+    github: "https://github.com/Nirob-Debnath/roommate-finder",
+    webapp: "https://findroommate-nirob.netlify.app/",
   },
   {
     id: 2,
@@ -158,8 +158,8 @@ export const projects = [
     description:
       "A React-based web application that provides hostel management functionalities, including room allocation, tenant management, and payment tracking. The intuitive design and smooth experience make it a go-to app for hostel administrators.",
     image: hostelManagementLogo,
-    tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-    github: "https://github.com/codingmastr/Movie-Recommendation-App",
-    webapp: "https://movie-recommendation-app-jet.vercel.app/",
+    tags: ["React JS", "Node JS", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
+    github: "https://github.com/Nirob-Debnath/hostel-management-system",
+    webapp: "https://hostel-portal-nirob.netlify.app/",
   },
-];  
+];

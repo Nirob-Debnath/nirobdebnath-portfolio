@@ -117,7 +117,7 @@ export const education = [
     school: "Melandhah Govt. College",
     date: "Apr 2017 - March 2019",
     grade: "78%",
-    desc: "I completed my HSC education from Melandhah Govt. College, under the Dhaka Board, where I studied Physics, Chemistry, and Mathematics",
+    desc: "I completed my HSC education from Melandhah Govt. College, under the Dhaka Board, where I studied Physics, Chemistry, Biology, ICT, Mathematics & Higher Mathematics.",
     degree: "Higher Secondary Certificate (H.S.C)",
   },
   {
@@ -126,7 +126,7 @@ export const education = [
     school: "Jamalpur Zilla School",
     date: "SSC 2016",
     grade: "87.5%",
-    desc: "I completed my class 10 education from Jamalpur Zilla School, under the Dhaka Board, where I studied Science.",
+    desc: "I completed my SSC from Jamalpur Zilla School, under the Dhaka Board, where I studied Science.",
     degree: "Secondary School Certificate (S.S.C)",
   },
 ];

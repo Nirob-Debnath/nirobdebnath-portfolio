@@ -33,8 +33,8 @@ const Projects = () => {
         {projects.map((project) => (
           <div
             key={project.id}
+            className="border border-white bg-gray-900 backdrop-blur-md rounded-2xl shadow-2xl overflow-hidden cursor-pointer hover:shadow-purple-500/50 hover:-translate-y-2 transition-transform duration-300 flex flex-col h-full"
             onClick={() => handleOpenModal(project)}
-            className="border border-white bg-gray-900 backdrop-blur-md rounded-2xl shadow-2xl overflow-hidden cursor-pointer hover:shadow-purple-500/50 hover:-translate-y-2 transition-transform duration-300"
           >
             <div className="p-4">
               <img
@@ -43,23 +43,31 @@ const Projects = () => {
                 className="w-full h-48 object-cover rounded-xl"
               />
             </div>
-            <div className="p-6">
-              <h3 className="text-2xl font-bold text-white mb-2">
-                {project.title}
-              </h3>
-              <p className="text-gray-500 mb-4 pt-4 line-clamp-3">
-                {project.description}
-              </p>
-              <div className="mb-4">
-                {project.tags.map((tag, index) => (
-                  <span
-                    key={index}
-                    className="inline-block bg-[#251f38] text-xs font-semibold text-purple-500 rounded-full px-2 py-1 mr-2 mb-2"
-                  >
-                    {tag}
-                  </span>
-                ))}
+            <div className="p-6 flex flex-col flex-1 justify-between">
+              <div>
+                <h3 className="text-2xl font-bold text-white mb-2">
+                  {project.title}
+                </h3>
+                <p className="text-gray-500 mb-4 pt-4 line-clamp-3">
+                  {project.description}
+                </p>
+                <div className="mb-4">
+                  {project.tags.map((tag, index) => (
+                    <span
+                      key={index}
+                      className="inline-block bg-[#251f38] text-xs font-semibold text-purple-500 rounded-full px-2 py-1 mr-2 mb-2"
+                    >
+                      {tag}
+                    </span>
+                  ))}
+                </div>
               </div>
+              <button
+                onClick={(e) => { e.stopPropagation(); handleOpenModal(project); }}
+                className="w-full bg-purple-600 hover:bg-purple-800 text-white px-4 py-2 rounded-xl text-base font-semibold text-center transition-colors duration-200 mt-2 cursor-pointer"
+              >
+                View Project
+              </button>
             </div>
           </div>
         ))}

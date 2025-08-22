@@ -8,6 +8,7 @@ import reactjsLogo from './assets/tech_logo/reactjs.png';
 //import reduxLogo from './assets/tech_logo/redux.png';
 import nextjsLogo from './assets/tech_logo/nextjs.png';
 import tailwindcssLogo from './assets/tech_logo/tailwindcss.png';
+import daisyUILogo from './assets/tech_logo/daisyUI.png';
 //import gsapLogo from './assets/tech_logo/gsap.png';
 import materialuiLogo from './assets/tech_logo/materialui.png';
 import bootstrapLogo from './assets/tech_logo/bootstrap.png';
@@ -52,10 +53,11 @@ export const SkillsInfo = [
       { name: 'CSS', logo: cssLogo },
       { name: 'JavaScript', logo: javascriptLogo },
       { name: 'Bootstrap', logo: bootstrapLogo },
+      { name: 'Tailwind CSS', logo: tailwindcssLogo },
+      { name: 'Daisy UI', logo: daisyUILogo },
+      { name: 'Material UI', logo: materialuiLogo },
       { name: 'React JS', logo: reactjsLogo },
       { name: 'Next JS', logo: nextjsLogo },
-      { name: 'Tailwind CSS', logo: tailwindcssLogo },
-      { name: 'Material UI', logo: materialuiLogo },
     ],
   },
   {
